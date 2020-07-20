@@ -1,0 +1,37 @@
+body {
+    border: 0;
+    background:burlywood;
+    font-size: 16px;
+    color: #fff;
+    background-image: url('./hanuman.jpg');
+}
+.image {
+    height: 120px;
+    width: 120px;
+    float:right;
+    flex-direction: row;
+    margin-right: 100px;
+    background-origin: padding-box;
+    display: flex;
+    border-radius: 20px;
+    
+}
+.image:hover  {
+    transform:scale(1.5);
+    transition-delay: .5s;
+    padding: 10px;
+    background-origin:padding-box ;
+    border-radius: 30px;
+
+}
+.h {
+    text-align: center;
+    color: red;
+}
+.nav {
+    background-color: lawngreen;
+    height: 150px;
+    border-radius: 0px;
+    margin-block-end: inherit;
+    text-align: center;
+}
